@@ -19,5 +19,6 @@ public class JavaMailService {
         message.setText(body); // Set the email body
         javaMailSender.send(message); // Send the email
         System.out.println("Mail Sent Successfully!");
+        System.out.println("2Mail Sent Successfully!");
     }
 }
