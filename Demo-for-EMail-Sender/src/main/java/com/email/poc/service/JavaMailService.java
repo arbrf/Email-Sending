@@ -20,5 +20,6 @@ public class JavaMailService {
         javaMailSender.send(message); // Send the email
         System.out.println("Mail Sent Successfully!");
         System.out.println("2Mail Sent Successfully!");
+        System.out.println("3Mail Sent Successfully!");
     }
 }
